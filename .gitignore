@@ -1,4 +1,20 @@
-raw
+.vscode
+.DS_store
+.Rhistory
+.Rdata
+.Rprofile
+.lintr
+.venvs
+
+archive/
+sample_data/
+logs/
+plots/
+tmp-files/
+
+tmp.R
+tmp.py
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
