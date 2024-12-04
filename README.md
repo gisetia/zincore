@@ -13,10 +13,10 @@ This repository consists of scripts organized in three main sections:
 
 * Python 3.9.6
 * Python libraries in `python_requirements.txt` file
-* R 4.2.0
-    * DiffBind 3.6.5
-    * ChIPseeker 1.32.1
-* meme 5.5.0 (??)
+* R 4.4.2
+    * DiffBind 3.16.0
+    * <span style="color:red">ChIPseeker 1.32.1</span>
+* <span style="color:red">meme 5.5.0</span>
 * bedtools v2.29.2
 * MACS3
 

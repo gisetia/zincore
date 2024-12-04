@@ -1,6 +1,9 @@
-#%%
-import refined_peaks.refined_peaks as rp
+# %%
+import os
+import subprocess as sp
 
+import refined_peaks.refined_peaks as rp
+# %%
 
 wt_bam_dir = 'sample_data/ChIPseq/WT_BAM'
 
@@ -19,5 +22,7 @@ summits_bed = rp.find_peak_summits(wt_bam_dir, merged_peaks, summits_save_dir)
 # Expand the summits by a specified width in base pairs
 refined_peaks = rp.expand_bed(summits_bed, summits_save_dir, width=100)
 
+# Perfom differential binding analysis using DiffBind
+sp.run(['Rscript', 'Rscripts/differential_binding.R'])
 
 # %%
