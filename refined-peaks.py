@@ -5,10 +5,12 @@ import subprocess as sp
 import refined_peaks.refined_peaks as rp
 # %%
 
-wt_bam_dir = 'sample_data/ChIPseq/WT_BAM'
+chipseq_dir = 'sample_data/ChIPseq'
 
-narrow_peaks_save_dir = 'sample_data/ChIPseq/WT_called_peaks'
-summits_save_dir = 'sample_data/ChIPseq/WT_summits'
+wt_bam_dir = f'{chipseq_dir}/WT_BAM'
+
+narrow_peaks_save_dir = f'{chipseq_dir}/WT_called_peaks'
+summits_save_dir = f'{chipseq_dir}/WT_summits'
 
 # Call WT peaks using MACS3
 rp.call_peaks(wt_bam_dir, narrow_peaks_save_dir)
@@ -23,6 +25,9 @@ summits_bed = rp.find_peak_summits(wt_bam_dir, merged_peaks, summits_save_dir)
 refined_peaks = rp.expand_bed(summits_bed, summits_save_dir, width=100)
 
 # Perfom differential binding analysis using DiffBind
+# Requires samples to be defined in <chipseq_dir>/diffbind/sample_sheet.csv
+# following the format required by the DiffBind package: 
+# SampleID,Factor,Replicate,bamReads,Peaks,PeakCaller
 sp.run(['Rscript', 'Rscripts/differential_binding.R'])
 
 # %%
