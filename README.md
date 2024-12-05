@@ -25,7 +25,7 @@ This repository consists of scripts organized in three main sections:
 
 
 ## Contact
-[Guizela Huelsz Prince](https://www.linkedin.com/in/g-huelsz-prince/)
+[Guizela Huelsz Prince](https://www.linkedin.com/in/g-huelsz-prince/)  
 [Danielle Bianchi](https://www.nki.nl/research/find-a-researcher/researchers/danielle-bianchi/)  
 [Lodewyk Wessels](https://www.nki.nl/research/research-groups/lodewyk-wessels/)  
 [Thijn Brummelkamp](https://www.nki.nl/research/research-groups/thijn-brummelkamp/)  
