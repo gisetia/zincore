@@ -30,4 +30,3 @@ This repository consists of scripts organized in three main sections:
 [Lodewyk Wessels](https://www.nki.nl/research/research-groups/lodewyk-wessels/)  
 [Thijn Brummelkamp](https://www.nki.nl/research/research-groups/thijn-brummelkamp/)  
 The Netherlands Cancer Institute (NKI)
-

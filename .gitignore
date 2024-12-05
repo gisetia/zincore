@@ -7,7 +7,7 @@
 .venvs
 
 archive/
-sample_data/
+raw_data/
 logs/
 plots/
 tmp-files/

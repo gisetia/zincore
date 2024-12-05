@@ -189,8 +189,8 @@ def find_peak_summits(wt_bam_dir: str, merged_peaks: pd.DataFrame,
                 if idx % 5000 == 0:
                     print(f'-- Processing peak coverage {idx+1} of '
                           f'{len(merged_peaks)}')
-
-                coverage = bam.count_coverage(row['chrom'], row['start'],
+                    
+                coverage = bam.count_coverage(str(row['chrom']), row['start'],
                                               row['end'])
 
                 coverage = np.sum(coverage, axis=0)

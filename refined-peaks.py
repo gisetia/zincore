@@ -1,14 +1,11 @@
-# %%
-import os
+#%%
 import subprocess as sp
 
 import refined_peaks.refined_peaks as rp
-# %%
 
+# Define data directories
 chipseq_dir = 'sample_data/ChIPseq'
-
 wt_bam_dir = f'{chipseq_dir}/WT_BAM'
-
 narrow_peaks_save_dir = f'{chipseq_dir}/WT_called_peaks'
 summits_save_dir = f'{chipseq_dir}/WT_summits'
 

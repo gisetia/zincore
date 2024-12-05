@@ -1,0 +1,5 @@
+SampleID,Factor,Replicate,bamReads,Peaks,PeakCaller
+1_WT_1,WT,1,sample_data/ChIPseq/WT_BAM/chr21_6915_1_WT_1_TCAGCATCTA-CCAGTGTACG_S75-mdup.bam,sample_data/ChIPseq/WT_summits/WT_refined_peaks.bed,bed
+2_WT_2,WT,2,sample_data/ChIPseq/WT_BAM/chr21_6915_2_WT_2_GAGCAGCTTG-TGCCAGTATT_S78-mdup.bam,sample_data/ChIPseq/WT_summits/WT_refined_peaks.bed,bed
+7_SEPHS1_KO_1,SEPHS1_KO,1,sample_data/ChIPseq/SEPHS1KO_BAM/chr21_6915_7_SEPHS1_KO_1_AGCAATTCAC-TCATCGTCTG_S83-mdup.bam,sample_data/ChIPseq/WT_summits/WT_refined_peaks.bed,bed
+8_SEPHS1_KO_2,SEPHS1_KO,2,sample_data/ChIPseq/SEPHS1KO_BAM/chr21_6915_8_SEPHS1_KO_2_CCTCTATAGA-GTACTTCCAA_S84-mdup.bam,sample_data/ChIPseq/WT_summits/WT_refined_peaks.bed,bed
