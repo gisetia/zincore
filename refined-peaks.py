@@ -27,4 +27,6 @@ refined_peaks = rp.expand_bed(summits_bed, summits_save_dir, width=100)
 # SampleID,Factor,Replicate,bamReads,Peaks,PeakCaller
 sp.run(['Rscript', 'Rscripts/differential_binding.R'])
 
-# %%
+# Annotate peaks to nearest genes using ChIPseeker
+sp.run(['Rscript', 'Rscripts/peak_annotation.R'])
+

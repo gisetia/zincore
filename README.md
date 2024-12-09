@@ -17,9 +17,12 @@ This repository consists of three main scripts, covering the following analysis 
 * Python libraries in `python_requirements.txt` file
 * R 4.4.2
     * DiffBind 3.16.0
-    * <span style="color:red">ChIPseeker 1.32.1</span>
+    * ChIPseeker 1.42.0
+    * ensembldb 2.30.0
+    * AnnotationHub 3.14.0
+    * rg.Hs.eg.db 3.20.0
 * <span style="color:red">meme 5.5.0 (??)</span>
-* bedtools v2.29.2
+* bedtools 2.29.2
 * MACS3
 
 
