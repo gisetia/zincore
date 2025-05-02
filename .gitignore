@@ -6,6 +6,8 @@
 .lintr
 .venvs
 notes
+resources
+tmp
 
 archive/
 raw_data/
