@@ -1,7 +1,6 @@
 # %%
 import os
 from matplotlib import pyplot as plt
-import pandas as pd
 import motif_discovery.motif_discovery as md
 import tools.motif_analysis as ma
 
