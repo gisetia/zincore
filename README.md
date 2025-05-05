@@ -1,4 +1,4 @@
-# Zincore: Refined ChIP-seq peak analysis and discovery of additional zinc-finger proteins
+# Zincore: Refined ChIP-seq peak analysis and motif discovery
 
 Code related to the publication: "**Zincore, an atypical coregulator, binds zinc finger transcription factors to control gene expression**".
 
@@ -12,12 +12,12 @@ This repository consists of two main scripts, namely `refined-peaks.py` and `mot
 
 * Python 3.9.6
 * Python libraries in `python_requirements.txt` file
-* R 4.4.2
-    * DiffBind 3.16.0
-    * ChIPseeker 1.42.0
-    * ensembldb 2.30.0
-    * AnnotationHub 3.14.0
-    * rg.Hs.eg.db 3.20.0
+* R 4.1.2
+    * DiffBind 3.4.11
+    * ChIPseeker 1.30.3
+    * ensembldb 2.18.4
+    * AnnotationHub 3.2.2
+    * org.Hs.eg.db 3.14.0
 * bedtools 2.29.2
 * MACS3
 
